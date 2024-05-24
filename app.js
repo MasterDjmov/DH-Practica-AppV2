@@ -27,13 +27,15 @@ Si se llegase a pasar cualquier otro texto que no sea la palabra
 listar, en la terminal deberá aparecer el texto: No entiendo qué
 quieres hacer.
  */
+
+console.table(process.argv);
 switch(process.argv[2])
 {
     case 'undefined':
         console.log("Tienes que pasar una Acción");
         break;
     case 'listar':
-        console.log("Accion de Listar tarea");
+        console.log("Accion de Listar tarea\n");
         console.table(ListarTareas());
         break;
     default:
@@ -46,5 +48,4 @@ switch(process.argv[2])
 }
 
 
-console.table(process.argv);
 
