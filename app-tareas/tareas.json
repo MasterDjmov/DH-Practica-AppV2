@@ -1,42 +1,54 @@
 [
-    {
-        "titulo": "Repasar JS",
-        "estado": "terminado"
-    },
-    {
-        "titulo": "Repasar NODE.JS",
-        "estado": "en progreso"
-    },
-    {
-        "titulo": "Leer sobre Express.js",
-        "estado": "pendiente"
-    },
-    {
-        "titulo": "Practicar algoritmos",
-        "estado": "en progreso"
-    },
-    {
-        "titulo": "Escribir un artículo sobre JS",
-        "estado": "pendiente"
-    },
-    {
-        "titulo": "Hacer un proyecto con React",
-        "estado": "terminado"
-    },
-    {
-        "titulo": "Estudiar patrones de diseño",
-        "estado": "pendiente"
-    },
-    {
-        "titulo": "Mejorar el portafolio",
-        "estado": "en progreso"
-    },
-    {
-        "titulo": "Aprender TypeScript",
-        "estado": "pendiente"
-    },
-    {
-        "titulo": "Contribuir a un proyecto de código abierto",
-        "estado": "terminado"
-    }
+  {
+    "titulo": "Repasar JS",
+    "estado": "terminado"
+  },
+  {
+    "titulo": "Repasar NODE.JS",
+    "estado": "en progreso"
+  },
+  {
+    "titulo": "Leer sobre Express.js",
+    "estado": "pendiente"
+  },
+  {
+    "titulo": "Practicar algoritmos",
+    "estado": "en progreso"
+  },
+  {
+    "titulo": "Escribir un artículo sobre JS",
+    "estado": "pendiente"
+  },
+  {
+    "titulo": "Hacer un proyecto con React",
+    "estado": "terminado"
+  },
+  {
+    "titulo": "Estudiar patrones de diseño",
+    "estado": "pendiente"
+  },
+  {
+    "titulo": "Mejorar el portafolio",
+    "estado": "en progreso"
+  },
+  {
+    "titulo": "Aprender TypeScript",
+    "estado": "pendiente"
+  },
+  {
+    "titulo": "Contribuir a un proyecto de código abierto",
+    "estado": "terminado"
+  },
+  {
+    "titulo": "Programar toda la noche",
+    "estado": "en progreso"
+  },
+  {
+    "titulo": "Comer",
+    "estado": "pendiente"
+  },
+  {
+    "titulo": "Tomar Mate",
+    "estado": "terminado"
+  }
 ]
