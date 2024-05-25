@@ -50,4 +50,17 @@ const guardarTarea = (tareas) =>{
         console.log("Algo paso, no se pudo escribir el archivo: "+ error);
     }
 }
-module.exports = {ListarTareas,crearTarea};
+
+//funciones de filtro
+const filtrarPorEstado = ()=>{
+    let estado = teclado.question(`Estados posibles de búsqueda
+    -terminado, pendiente, en progreso
+    -->> `);
+
+    let devolverTareas = Tareas.filter((tarea)=>{
+        return tarea.estado===estado;
+    });
+    return devolverTareas;
+}
+
+module.exports = {ListarTareas,crearTarea,filtrarPorEstado};

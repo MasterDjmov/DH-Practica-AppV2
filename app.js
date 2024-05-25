@@ -1,4 +1,4 @@
-const {ListarTareas,crearTarea} = require("./funcionesDeTareas");
+const {ListarTareas,crearTarea,filtrarPorEstado} = require("./funcionesDeTareas");
 console.clear();
 
 //controlo el proceso de argv
@@ -42,10 +42,13 @@ switch(process.argv[2])
         console.log("Accion de Crear tarea\n");
         crearTarea();
         break;
+    case 'filtro':
+        console.table(filtrarPorEstado());
+        break;
     default:
         console.log(`No entiendo que quieres decir
             ----------------------------------------
-            Acciones validas: listar,crear
+            Acciones validas: listar,crear,filtro
             ---------------------------------------
             `);
         
